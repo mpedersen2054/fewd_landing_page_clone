@@ -34,7 +34,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-h1 {
-  color: red; }
+.top-navigation {
+  background-color: #fff; }
+  .top-navigation .content {
+    height: 70px;
+    width: 970px;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=styles.css.map */
