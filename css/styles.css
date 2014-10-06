@@ -40,5 +40,7 @@ table {
     height: 70px;
     width: 970px;
     margin: 0 auto; }
+    .top-navigation .content .logo {
+      padding-top: 15px; }
 
 /*# sourceMappingURL=styles.css.map */
