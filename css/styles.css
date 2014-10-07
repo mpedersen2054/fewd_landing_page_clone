@@ -62,7 +62,11 @@ h3 {
   margin: 0 auto; }
 
 .top-navigation {
-  background-color: #fff; }
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 2px solid #f15a29; }
   .top-navigation .content {
     height: 70px; }
     .top-navigation .content .logo {
