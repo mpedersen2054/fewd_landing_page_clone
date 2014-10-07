@@ -3,14 +3,28 @@
 body
   font-family: 'Roboto', sans-serif
 
+html, html a
+  -webkit-font-smoothing: antialiased
+
 h1, h2, h3, h4, h5, h6
-  font-weight: 100
+  font-weight: 300
+  letter-spacing: -0.02em
 
 h1
-  font-size: 50px
+  font-size: 56px
+  font-weight: 500
+
+h2
+  font-size: 44px
+  margin-top: 18px
+  margin-bottom: 18px
+  font-weight: 300
+  // letter-spacing: 0.06em
 
 h3
   font-size: 24px
+  margin-top: 18px
+  margin-bottom: 18px
 
 .content
   box-sizing: border-box
@@ -31,7 +45,6 @@ h3
       color: #838994
       letter-spacing: 0.03em
       margin-top: 25px
-      -webkit-font-smoothing: antialiased
       &>.active
         color: #4c5058
         font-weight: 600
@@ -60,7 +73,7 @@ h3
       color: #fff
       text-shadow: 0 1px 2px rgba(0,0,0,0.1)
       text-align: center
-      letter-spacing: 0.09em
+      letter-spacing: 0.06em
       margin-top: 18px
       margin-bottom: 18px
     .buttons
@@ -78,6 +91,7 @@ h3
         border-radius: 4px
         padding: 16px 26px
         line-height: 1.33
+        cursor: pointer
         a
           text-decoration: none
           color: #fff
@@ -92,3 +106,37 @@ h3
           max-height: 35px
           max-width: 35px
 
+
+
+.cases
+  background-color: #fff
+  text-align: center
+  .content
+    padding: 128px 0
+  .devices
+    width: 33.3333333%
+    min-height: 324px
+    display: inline-block
+    box-sizing: border-box
+    margin-right: -4px
+    padding-left: 15px
+    padding-right: 15px
+    img
+      margin: 40px 0 20px 0
+      max-height: 127px
+      max-width: 127px
+    h3
+      font-weight: 400
+      line-height: 1.25
+      color: #1d1e21
+    .lead
+      font-size: 18px
+      font-weight: 400
+      color: #4c5058
+      line-height: 1.538461538
+      margin: 0 0 11px
+      margin-bottom: 21px
+
+
+.next
+  color: blue
