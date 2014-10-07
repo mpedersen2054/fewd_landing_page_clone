@@ -67,6 +67,13 @@ hr {
   width: 970px;
   margin: 0 auto; }
 
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4c5058;
+  line-height: 1.53846;
+  margin-bottom: 21px; }
+
 .top-navigation {
   background-color: #fff;
   width: 100%;
@@ -236,5 +243,41 @@ footer .social {
     color: #838994;
     font-weight: 300;
     margin-bottom: 5px; }
+
+.what-is-karma {
+  background: #caccd1 url(../img/what-is-karma-bg.jpg) bottom center no-repeat;
+  background-size: cover;
+  text-shadow: 16 1px 0 rgba(255, 255, 255, 0.8); }
+  .what-is-karma .content {
+    padding: 126px 0; }
+  .what-is-karma .left-text {
+    width: 33.33333%;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .what-is-karma .left-text h3 {
+      color: #f15a29;
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 1.53846;
+      letter-spacing: -0.02em; }
+    .what-is-karma .left-text .buy-now-button {
+      color: white;
+      background-color: #f15a29;
+      border-color: #f15a29;
+      text-shadow: none;
+      padding: 16px 26px;
+      font-size: 18px;
+      line-height: 1.33;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 0;
+      font-weight: normal;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      background-image: none;
+      border: 1px solid transparent;
+      white-space: nowrap;
+      text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
